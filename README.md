@@ -8,10 +8,19 @@ Release 1.0.0
 
 ## Installation
 
-Download the repository and put the class file in your project. include the file in your code and create imagesolution object.
+Put package name in the composer.json file.
 ````
-require_once 'imagesolution.class.php';
-$image = new Imagesolution('asset/twitter.jpg');
+"require": {
+		........: ........,
+		........: ........,
+        "shahreare/imagesolution": "dev-master"
+    }
+````
+Then run composer update command. Then create the image object in your code with the image file name;
+
+
+````
+$image = new \Imagesolution\Imagesolution('asset/logo.jpg');
 ````
 
 ## Code Example
