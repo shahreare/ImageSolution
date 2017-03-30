@@ -1,8 +1,8 @@
 {
-    "name": "shahreare/imagesolution",
+    "name": "Shahreare/ImageSolution",
     "description": "A complete class for image manipulation",
     "type": "library",
-    "license": "mit",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nayan",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Imagesolution":"src/"
+            "Shahreare/ImageSolution":"src/"
         }
     }
 }

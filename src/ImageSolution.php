@@ -2,14 +2,14 @@
 /**
  * This is a class for several type of image manipulation.
  *
- * @package shahreare\imagesolution
+ * @package shahreare\ImageSolution
  * @class Imagesolution
  * @version 1.0.0
  * @author A H M Reza Shahreare Khan, www.shahreare.me
  */
-namespace shahreare\imagesolution;
+namespace Shahreare\ImageSolution;
 
-class Imagesolution {
+class ImageSolution {
 	protected $filename;
 	protected $dimX;
 	protected $dimY;
