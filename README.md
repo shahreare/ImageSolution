@@ -18,7 +18,7 @@ $image = new Imagesolution('asset/twitter.jpg');
 
 There are several functionality this class can do.
 
-###View Image Dimension ###
+###View Image Dimension
 **getDim()** function return an associative array with height and width of the image.
 ```
 $val = $image->getDim();
